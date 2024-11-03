@@ -29,9 +29,9 @@ ffdl install --add--path
 ```
 По коду:
 Ссылки на таблицы для файла "обучение_ии_py.py"
-1. ```data = pd.read_csv("/content/32 подкаста без стоп слов - Лист1.csv")```  ссылка: https://docs.google.com/spreadsheets/d/1dwsGmCylcmW0sAarrmvlFyIYSe5Gk-B_6ksULVHIYHw/edit?gid=0#gid=0
-2.``` таблица без стоп листов и слова в начальной форме - lemmas_output.csv (1).csv)``` ссылка: https://docs.google.com/spreadsheets/d/1ylhaht8s3b7dXjb77vuL4oTkd6fVE-pqgh-E_rkTlMI/edit?gid=1030516438#gid=1030516438
-3. ```with open('1 - 1.csv.csv', 'r', encoding='utf-8') as file:```  ссылка: https://docs.google.com/spreadsheets/d/1NzyXlaAfuW4G80f1R610hWyGV8vz4O8nq2tileEFh-Q/edit?gid=225818973#gid=225818973
+1. data = pd.read_csv("/content/32 подкаста без стоп слов - Лист1.csv")  ссылка: https://docs.google.com/spreadsheets/d/1dwsGmCylcmW0sAarrmvlFyIYSe5Gk-B_6ksULVHIYHw/edit?gid=0#gid=0
+2. таблица без стоп листов и слова в начальной форме - lemmas_output.csv (1).csv) ссылка: https://docs.google.com/spreadsheets/d/1ylhaht8s3b7dXjb77vuL4oTkd6fVE-pqgh-E_rkTlMI/edit?gid=1030516438#gid=1030516438
+3. with open('1 - 1.csv.csv', 'r', encoding='utf-8') as file: ссылка: https://docs.google.com/spreadsheets/d/1NzyXlaAfuW4G80f1R610hWyGV8vz4O8nq2tileEFh-Q/edit?gid=225818973#gid=225818973
 
 Теперь пройдусь по программам, они разделены для меньшей нагрузки. 
 1. Программа для скачивания mp3 файлов с сайта "https://castbox.fm/categories/10058?country=ru" находить в файле под названием "sait_to_mp3.py", проявите терпение во время работы программы.
