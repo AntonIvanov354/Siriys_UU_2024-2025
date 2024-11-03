@@ -1,0 +1,17 @@
+pip install numpy
+pip install pandas
+pip install gensim
+pip install nltk
+pip install sklearn
+pip install matplotlib
+pip install topn
+pip install spacy
+pip install pycuda
+pip install pymorphy2
+pip install transformers torch
+pip install transformers
+pip install openpyxl
+pip install requests
+pip install beautifulsoup4 
+pip install pydub
+pip install SpeechRecognition
