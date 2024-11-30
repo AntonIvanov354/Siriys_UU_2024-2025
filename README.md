@@ -25,6 +25,7 @@
 "файл не найден" введите следующие в cmd
 ```
 pip install ffmpeg или pip install python-ffmpeg
+если все равно не работает идем другим способом, pip install ffmpeg-downloader
 ffdl install --add--path
 ```
 По коду:
