@@ -2,6 +2,9 @@ import speech_recognition as sr
 from pydub import AudioSegment
 import os
 
+number_of_files = 218  # Задайте нужное количество файлов
+q = "D:\\picec\\txt_dowlands_41_219_2_prt"
+
 def convert_large_audio_to_text(audio_file_path):
     """Преобразует аудиофайл в текст, обрабатывая его по частям."""
     recognizer = sr.Recognizer()
@@ -34,10 +37,10 @@ def convert_large_audio_to_text(audio_file_path):
     return full_text
 
 def main():
-    for i in range(4, 33):
+    for i in range(49, number_of_files+1):
         b = str(i)
-        a = "audio" + b + ".wav"
-        audio_file_path = os.path.join("G:\\picec\\audiomaw", a)  # Укажите путь к вашему аудиофайлу
+        a = "udio" + b + ".wav"
+        audio_file_path = os.path.join("H:\\с 41 по 219 2 партия", a)  # Укажите путь к вашему аудиофайлу
         print(f"Обработка файла: {audio_file_path}")
 
         # Преобразуем аудиофайл в текст
@@ -48,7 +51,7 @@ def main():
         print(text)
 
         # Сохраняем текст в файл
-        bara = "itog" + b + ".txt"
+        bara = os.path.join(q ,"itog" + b + ".txt")
         with open(bara, "w", encoding='utf-8') as itog:
             itog.write(text)
 
